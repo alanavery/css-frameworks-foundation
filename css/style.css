@@ -41,6 +41,10 @@ nav a:hover, nav a:focus {
   background-color: white;
 }
 
+.orbit-container {
+  height: 300px;
+}
+
 .orbit-caption {
   font-size: 1.2em;
   font-weight: 500;
@@ -117,7 +121,16 @@ h3 {
 .dining {
   align-items: center;
   justify-content: left;
+  overflow: hidden;
   position: relative;
+}
+
+.bkg-img {
+  background-image: url("https://ihg.scene7.com/is/image/ihg/Kimpton-Dine-With-Us");
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
 }
 
 .dining-text {
