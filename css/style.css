@@ -5,7 +5,7 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* Navigation */
+/* Header */
 
 li.menu-text.stay-title {
   color: goldenrod;
@@ -39,10 +39,6 @@ nav a:hover, nav a:focus {
 
 .orbit {
   background-color: white;
-}
-
-.orbit-container {
-  height: 300px;
 }
 
 .orbit-caption {
@@ -183,4 +179,14 @@ footer a {
 
 footer a:hover {
   color: goldenrod;
+}
+
+/* Media queries */
+
+@media screen and (min-width: 1920px) {
+
+.orbit-container {
+  height: 1080px !important;
+}
+
 }
